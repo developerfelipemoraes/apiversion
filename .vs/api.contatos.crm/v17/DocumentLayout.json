@@ -1,49 +1,57 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\actdigital\\Downloads\\api.contatos.crm-main\\api.contatos.crm-main\\",
+  "WorkspaceRootPath": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\actdigital\\Downloads\\api.contatos.crm-main\\api.contatos.crm-main\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\actdigital\\Downloads\\api.contatos.crm-main\\api.contatos.crm-main\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel..Crm.Conta.Contato.Api.csproj|c:\\users\\actdigital\\downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\aurovel.api\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel.Crm.Api.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel.Crm.Api.csproj|solutionrelative:src\\aurovel.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel.Crm.Api.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel.Crm.Api.csproj|solutionrelative:src\\aurovel.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel..Crm.Conta.Contato.Api.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.api\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel..Crm.Conta.Contato.Api.csproj|solutionrelative:src\\aurovel.api\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel..Crm.Conta.Contato.Api.csproj|c:\\users\\actdigital\\downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\aurovel.api\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel..Crm.Conta.Contato.Api.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.api\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel..Crm.Conta.Contato.Api.csproj|solutionrelative:src\\aurovel.api\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel..Crm.Conta.Contato.Api.csproj|c:\\users\\actdigital\\downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\aurovel.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel..Crm.Conta.Contato.Api.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel..Crm.Conta.Contato.Api.csproj|solutionrelative:src\\aurovel.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66AE8DEC-A735-ECB6-FD13-C47688216985}|src\\Aurovel.Application\\Aurovel.Application.csproj|c:\\users\\actdigital\\downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\aurovel.application\\validation\\companyvalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{66AE8DEC-A735-ECB6-FD13-C47688216985}|src\\Aurovel.Application\\Aurovel.Application.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.application\\validation\\companyvalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66AE8DEC-A735-ECB6-FD13-C47688216985}|src\\Aurovel.Application\\Aurovel.Application.csproj|solutionrelative:src\\aurovel.application\\validation\\companyvalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{136EFC06-262D-280B-F238-284952113109}|src\\Aurovel.Domain\\Aurovel.Domain.csproj|c:\\users\\actdigital\\downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\aurovel.domain\\documents\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{136EFC06-262D-280B-F238-284952113109}|src\\Aurovel.Domain\\Aurovel.Domain.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.domain\\documents\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{136EFC06-262D-280B-F238-284952113109}|src\\Aurovel.Domain\\Aurovel.Domain.csproj|solutionrelative:src\\aurovel.domain\\documents\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{136EFC06-262D-280B-F238-284952113109}|src\\Aurovel.Domain\\Aurovel.Domain.csproj|c:\\users\\actdigital\\downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\aurovel.domain\\documents\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{136EFC06-262D-280B-F238-284952113109}|src\\Aurovel.Domain\\Aurovel.Domain.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.domain\\documents\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{136EFC06-262D-280B-F238-284952113109}|src\\Aurovel.Domain\\Aurovel.Domain.csproj|solutionrelative:src\\aurovel.domain\\documents\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel..Crm.Conta.Contato.Api.csproj|c:\\users\\actdigital\\downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\aurovel.api\\controllers\\matchingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel..Crm.Conta.Contato.Api.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.api\\controllers\\matchingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel..Crm.Conta.Contato.Api.csproj|solutionrelative:src\\aurovel.api\\controllers\\matchingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel..Crm.Conta.Contato.Api.csproj|c:\\users\\actdigital\\downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\aurovel.api\\middleware\\commonmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel..Crm.Conta.Contato.Api.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.api\\middleware\\commonmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel..Crm.Conta.Contato.Api.csproj|solutionrelative:src\\aurovel.api\\middleware\\commonmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel..Crm.Conta.Contato.Api.csproj|c:\\users\\actdigital\\downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\aurovel.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel..Crm.Conta.Contato.Api.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel..Crm.Conta.Contato.Api.csproj|solutionrelative:src\\aurovel.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -54,69 +62,93 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "src\\Aurovel.Api\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "src\\Aurovel.Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwAsAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-13T18:31:07.442Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Aurovel.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\appsettings.json",
+              "RelativeToolTip": "src\\Aurovel.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-13T18:30:54.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "docker-compose.yml",
-              "DocumentMoniker": "C:\\Users\\actdigital\\Downloads\\api.contatos.crm-main\\api.contatos.crm-main\\docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
-              "ToolTip": "C:\\Users\\actdigital\\Downloads\\api.contatos.crm-main\\api.contatos.crm-main\\docker-compose.yml",
+              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\docker-compose.yml",
               "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABEAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2025-08-29T18:51:57.877Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\actdigital\\Downloads\\api.contatos.crm-main\\api.contatos.crm-main\\Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
-              "ToolTip": "C:\\Users\\actdigital\\Downloads\\api.contatos.crm-main\\api.contatos.crm-main\\Dockerfile",
+              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\Dockerfile",
               "RelativeToolTip": "Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-08-29T18:51:52.92Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\actdigital\\Downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\Aurovel.Api\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Program.cs",
               "RelativeDocumentMoniker": "src\\Aurovel.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\actdigital\\Downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\Aurovel.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Program.cs",
               "RelativeToolTip": "src\\Aurovel.Api\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAE8AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwE8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T18:50:40.343Z"
+              "WhenOpened": "2025-08-29T18:50:40.343Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "MatchingController.cs",
-              "DocumentMoniker": "C:\\Users\\actdigital\\Downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\Aurovel.Api\\Controllers\\MatchingController.cs",
+              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Controllers\\MatchingController.cs",
               "RelativeDocumentMoniker": "src\\Aurovel.Api\\Controllers\\MatchingController.cs",
-              "ToolTip": "C:\\Users\\actdigital\\Downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\Aurovel.Api\\Controllers\\MatchingController.cs",
+              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Controllers\\MatchingController.cs",
               "RelativeToolTip": "src\\Aurovel.Api\\Controllers\\MatchingController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T18:49:18.124Z"
+              "WhenOpened": "2025-08-29T18:49:18.124Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ContactsController.cs",
-              "DocumentMoniker": "C:\\Users\\actdigital\\Downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\Aurovel.Api\\Controllers\\ContactsController.cs",
+              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Controllers\\ContactsController.cs",
               "RelativeDocumentMoniker": "src\\Aurovel.Api\\Controllers\\ContactsController.cs",
-              "ToolTip": "C:\\Users\\actdigital\\Downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\Aurovel.Api\\Controllers\\ContactsController.cs",
+              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Controllers\\ContactsController.cs",
               "RelativeToolTip": "src\\Aurovel.Api\\Controllers\\ContactsController.cs",
               "ViewState": "AgIAAEEAAAAAAAAAAAAAwEkAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -125,47 +157,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "CommonMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\actdigital\\Downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\Aurovel.Api\\Middleware\\CommonMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Middleware\\CommonMiddleware.cs",
               "RelativeDocumentMoniker": "src\\Aurovel.Api\\Middleware\\CommonMiddleware.cs",
-              "ToolTip": "C:\\Users\\actdigital\\Downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\Aurovel.Api\\Middleware\\CommonMiddleware.cs",
+              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Middleware\\CommonMiddleware.cs",
               "RelativeToolTip": "src\\Aurovel.Api\\Middleware\\CommonMiddleware.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T16:56:35.899Z"
+              "WhenOpened": "2025-08-29T16:56:35.899Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Company.cs",
-              "DocumentMoniker": "C:\\Users\\actdigital\\Downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\Aurovel.Domain\\Documents\\Company.cs",
+              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Domain\\Documents\\Company.cs",
               "RelativeDocumentMoniker": "src\\Aurovel.Domain\\Documents\\Company.cs",
-              "ToolTip": "C:\\Users\\actdigital\\Downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\Aurovel.Domain\\Documents\\Company.cs",
+              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Domain\\Documents\\Company.cs",
               "RelativeToolTip": "src\\Aurovel.Domain\\Documents\\Company.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T16:37:10.109Z"
+              "WhenOpened": "2025-08-29T16:37:10.109Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Contact.cs",
-              "DocumentMoniker": "C:\\Users\\actdigital\\Downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\Aurovel.Domain\\Documents\\Contact.cs",
+              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Domain\\Documents\\Contact.cs",
               "RelativeDocumentMoniker": "src\\Aurovel.Domain\\Documents\\Contact.cs",
-              "ToolTip": "C:\\Users\\actdigital\\Downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\Aurovel.Domain\\Documents\\Contact.cs",
+              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Domain\\Documents\\Contact.cs",
               "RelativeToolTip": "src\\Aurovel.Domain\\Documents\\Contact.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T13:54:24.614Z"
+              "WhenOpened": "2025-08-29T13:54:24.614Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "CompaniesController.cs",
-              "DocumentMoniker": "C:\\Users\\actdigital\\Downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\Aurovel.Api\\Controllers\\CompaniesController.cs",
+              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Controllers\\CompaniesController.cs",
               "RelativeDocumentMoniker": "src\\Aurovel.Api\\Controllers\\CompaniesController.cs",
-              "ToolTip": "C:\\Users\\actdigital\\Downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\Aurovel.Api\\Controllers\\CompaniesController.cs",
+              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Controllers\\CompaniesController.cs",
               "RelativeToolTip": "src\\Aurovel.Api\\Controllers\\CompaniesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -174,27 +209,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\actdigital\\Downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\Aurovel.Api\\Controllers\\AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "src\\Aurovel.Api\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\actdigital\\Downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\Aurovel.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Controllers\\AuthController.cs",
               "RelativeToolTip": "src\\Aurovel.Api\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T13:13:32.542Z"
+              "WhenOpened": "2025-08-29T13:13:32.542Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "CompanyValidators.cs",
-              "DocumentMoniker": "C:\\Users\\actdigital\\Downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\Aurovel.Application\\Validation\\CompanyValidators.cs",
+              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Application\\Validation\\CompanyValidators.cs",
               "RelativeDocumentMoniker": "src\\Aurovel.Application\\Validation\\CompanyValidators.cs",
-              "ToolTip": "C:\\Users\\actdigital\\Downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\Aurovel.Application\\Validation\\CompanyValidators.cs",
+              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Application\\Validation\\CompanyValidators.cs",
               "RelativeToolTip": "src\\Aurovel.Application\\Validation\\CompanyValidators.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAkwAsAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T13:12:17.498Z"
+              "WhenOpened": "2025-08-29T13:12:17.498Z",
+              "EditorCaption": ""
             }
           ]
         }
