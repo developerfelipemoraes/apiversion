@@ -6,9 +6,9 @@ services:
       context: ./
       dockerfile: Dockerfile
     environment:
-      - MONGODB_URI=mongodb+srv://aurovelcrmdatabaseuser:jlE2kLL7spFlUEk2@aurovelcrmdatabaseclust.w8vfhxf.mongodb.net/?retryWrites=true&w=majority&appName=AurovelCrmDataBaseCluster
+      - MONGODB_URI=${MONGODB_URI}
       - MONGO_DB=CrmVeiculosAurovel
-      - JWT_SECRET=c:Ib]jvWu^&EO[SzH+<}P$-7AC6~$}7X&%;VH0WS
+      - JWT_SECRET=${JWT_SECRET}
       - CORS_ORIGINS=http://localhost:3000,http://localhost:5173
       - ASPNETCORE_ENVIRONMENT=Development
       - ASPNETCORE_URLS=http://+:3001
