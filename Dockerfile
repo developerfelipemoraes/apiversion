@@ -3,8 +3,8 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 COPY ./src ./src
-RUN dotnet restore ./src/Aurovel.Api/Aurovel.Api.csproj
-RUN dotnet publish ./src/Aurovel.Api/Aurovel.Api.csproj -c Release -o /app
+RUN dotnet restore ./src/Aurovel.Api/Aurovel.Crm.Api.csproj
+RUN dotnet publish ./src/Aurovel.Api/Aurovel.Crm.Api -c Release -o /app
 
 # --- runtime stage ---
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final

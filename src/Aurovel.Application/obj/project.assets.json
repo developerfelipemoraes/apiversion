@@ -333,23 +333,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\actdigital\\.nuget\\packages\\": {},
+    "C:\\Users\\Felipe\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\actdigital\\Downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\Aurovel.Application\\Aurovel.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Application\\Aurovel.Application.csproj",
       "projectName": "Aurovel.Application",
-      "projectPath": "C:\\Users\\actdigital\\Downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\Aurovel.Application\\Aurovel.Application.csproj",
-      "packagesPath": "C:\\Users\\actdigital\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\actdigital\\Downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\Aurovel.Application\\obj\\",
+      "projectPath": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Application\\Aurovel.Application.csproj",
+      "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\actdigital\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -358,14 +358,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\actdigital\\Downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\Aurovel.Domain\\Aurovel.Domain.csproj": {
-              "projectPath": "C:\\Users\\actdigital\\Downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\Aurovel.Domain\\Aurovel.Domain.csproj"
+            "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Domain\\Aurovel.Domain.csproj": {
+              "projectPath": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Domain\\Aurovel.Domain.csproj"
             }
           }
         }

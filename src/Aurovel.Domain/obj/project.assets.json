@@ -125,23 +125,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\actdigital\\.nuget\\packages\\": {},
+    "C:\\Users\\Felipe\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\actdigital\\Downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\Aurovel.Domain\\Aurovel.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Domain\\Aurovel.Domain.csproj",
       "projectName": "Aurovel.Domain",
-      "projectPath": "C:\\Users\\actdigital\\Downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\Aurovel.Domain\\Aurovel.Domain.csproj",
-      "packagesPath": "C:\\Users\\actdigital\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\actdigital\\Downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\Aurovel.Domain\\obj\\",
+      "projectPath": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Domain\\Aurovel.Domain.csproj",
+      "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\actdigital\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -150,6 +150,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

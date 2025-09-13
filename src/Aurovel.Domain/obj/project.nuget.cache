@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "b4tPgH+RwBw=",
+  "dgSpecHash": "u2KaX3Zr8JE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\actdigital\\Downloads\\api.contatos.crm-main\\api.contatos.crm-main\\src\\Aurovel.Domain\\Aurovel.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Domain\\Aurovel.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\actdigital\\.nuget\\packages\\mongodb.bson\\2.25.0\\mongodb.bson.2.25.0.nupkg.sha512",
-    "C:\\Users\\actdigital\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
-    "C:\\Users\\actdigital\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+    "C:\\Users\\Felipe\\.nuget\\packages\\mongodb.bson\\2.25.0\\mongodb.bson.2.25.0.nupkg.sha512",
+    "C:\\Users\\Felipe\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\Felipe\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }
