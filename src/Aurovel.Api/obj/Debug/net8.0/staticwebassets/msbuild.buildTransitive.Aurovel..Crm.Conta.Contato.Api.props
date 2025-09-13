@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Aurovel..Crm.Conta.Contato.Api.props" />
+</Project>

@@ -1,0 +1,15 @@
+C:\Users\actdigital\Downloads\api.contatos.crm-main\api.contatos.crm-main\src\Aurovel.Application\bin\Debug\net8.0\Aurovel.Application.deps.json
+C:\Users\actdigital\Downloads\api.contatos.crm-main\api.contatos.crm-main\src\Aurovel.Application\bin\Debug\net8.0\Aurovel.Application.dll
+C:\Users\actdigital\Downloads\api.contatos.crm-main\api.contatos.crm-main\src\Aurovel.Application\bin\Debug\net8.0\Aurovel.Application.pdb
+C:\Users\actdigital\Downloads\api.contatos.crm-main\api.contatos.crm-main\src\Aurovel.Application\bin\Debug\net8.0\Aurovel.Domain.dll
+C:\Users\actdigital\Downloads\api.contatos.crm-main\api.contatos.crm-main\src\Aurovel.Application\bin\Debug\net8.0\Aurovel.Domain.pdb
+C:\Users\actdigital\Downloads\api.contatos.crm-main\api.contatos.crm-main\src\Aurovel.Application\obj\Debug\net8.0\Aurovel.Application.csproj.AssemblyReference.cache
+C:\Users\actdigital\Downloads\api.contatos.crm-main\api.contatos.crm-main\src\Aurovel.Application\obj\Debug\net8.0\Aurovel.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\actdigital\Downloads\api.contatos.crm-main\api.contatos.crm-main\src\Aurovel.Application\obj\Debug\net8.0\Aurovel.Application.AssemblyInfoInputs.cache
+C:\Users\actdigital\Downloads\api.contatos.crm-main\api.contatos.crm-main\src\Aurovel.Application\obj\Debug\net8.0\Aurovel.Application.AssemblyInfo.cs
+C:\Users\actdigital\Downloads\api.contatos.crm-main\api.contatos.crm-main\src\Aurovel.Application\obj\Debug\net8.0\Aurovel.Application.csproj.CoreCompileInputs.cache
+C:\Users\actdigital\Downloads\api.contatos.crm-main\api.contatos.crm-main\src\Aurovel.Application\obj\Debug\net8.0\Aurovel..27FED985.Up2Date
+C:\Users\actdigital\Downloads\api.contatos.crm-main\api.contatos.crm-main\src\Aurovel.Application\obj\Debug\net8.0\Aurovel.Application.dll
+C:\Users\actdigital\Downloads\api.contatos.crm-main\api.contatos.crm-main\src\Aurovel.Application\obj\Debug\net8.0\refint\Aurovel.Application.dll
+C:\Users\actdigital\Downloads\api.contatos.crm-main\api.contatos.crm-main\src\Aurovel.Application\obj\Debug\net8.0\Aurovel.Application.pdb
+C:\Users\actdigital\Downloads\api.contatos.crm-main\api.contatos.crm-main\src\Aurovel.Application\obj\Debug\net8.0\ref\Aurovel.Application.dll

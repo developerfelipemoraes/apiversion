@@ -1,0 +1,19 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/api.contatos.crm/CopilotIndices/17.13.441.19478
+/.vs/api.contatos.crm/DesignTimeBuild
+/.vs/api.contatos.crm/FileContentIndex
+/.vs/api.contatos.crm/v17
+/src/Aurovel.Api/bin/Debug/net8.0
+/src/Aurovel.Api/obj
+/src/Aurovel.Application/bin/Debug/net8.0
+/src/Aurovel.Application/obj/Debug/net8.0
+/src/Aurovel.Application/obj
+/src/Aurovel.Domain/bin/Debug/net8.0
+/src/Aurovel.Domain/obj
+/src/Aurovel.Infrastructure/bin/Debug/net8.0
+/src/Aurovel.Infrastructure/obj/Debug/net8.0
+/src/Aurovel.Infrastructure/obj
+/tests/Aurovel.Tests

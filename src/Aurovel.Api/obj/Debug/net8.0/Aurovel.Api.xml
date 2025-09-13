@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Aurovel.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Aurovel.Api.Controllers.CompaniesController.#ctor(Aurovel.Infrastructure.Repositories.ICompanyRepository,Aurovel.Application.Validation.CompanyCreateValidator,Aurovel.Application.Validation.CompanyUpdateValidator)">
+            <summary>
+            
+            </summary>
+            <param name="repo"></param>
+            <param name="createValidator"></param>
+            <param name="updateValidator"></param>
+        </member>
+        <member name="M:Aurovel.Api.Controllers.CompaniesController.Create(System.Text.Json.JsonElement)">
+            <summary>
+            
+            </summary>
+            <param name="body"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Aurovel.Api.Controllers.CompaniesController.List(System.Int32,System.Int32,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="page"></param>
+            <param name="limit"></param>
+            <param name="status"></param>
+            <param name="kycScoreMin"></param>
+            <param name="kycScoreMax"></param>
+            <param name="search"></param>
+            <param name="sortBy"></param>
+            <param name="sortOrder"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Aurovel.Api.Controllers.CompaniesController.Stats">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Aurovel.Api.Controllers.CompaniesController.GetById(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Aurovel.Api.Controllers.CompaniesController.GetByCnpj(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="cnpj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Aurovel.Api.Controllers.CompaniesController.Update(System.String,MongoDB.Bson.BsonDocument)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="body"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

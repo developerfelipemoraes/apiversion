@@ -1,0 +1,12 @@
+C:\Users\actdigital\Downloads\api.contatos.crm-main\api.contatos.crm-main\src\Aurovel.Domain\bin\Debug\net8.0\Aurovel.Domain.deps.json
+C:\Users\actdigital\Downloads\api.contatos.crm-main\api.contatos.crm-main\src\Aurovel.Domain\bin\Debug\net8.0\Aurovel.Domain.dll
+C:\Users\actdigital\Downloads\api.contatos.crm-main\api.contatos.crm-main\src\Aurovel.Domain\bin\Debug\net8.0\Aurovel.Domain.pdb
+C:\Users\actdigital\Downloads\api.contatos.crm-main\api.contatos.crm-main\src\Aurovel.Domain\obj\Debug\net8.0\Aurovel.Domain.csproj.AssemblyReference.cache
+C:\Users\actdigital\Downloads\api.contatos.crm-main\api.contatos.crm-main\src\Aurovel.Domain\obj\Debug\net8.0\Aurovel.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\actdigital\Downloads\api.contatos.crm-main\api.contatos.crm-main\src\Aurovel.Domain\obj\Debug\net8.0\Aurovel.Domain.AssemblyInfoInputs.cache
+C:\Users\actdigital\Downloads\api.contatos.crm-main\api.contatos.crm-main\src\Aurovel.Domain\obj\Debug\net8.0\Aurovel.Domain.AssemblyInfo.cs
+C:\Users\actdigital\Downloads\api.contatos.crm-main\api.contatos.crm-main\src\Aurovel.Domain\obj\Debug\net8.0\Aurovel.Domain.csproj.CoreCompileInputs.cache
+C:\Users\actdigital\Downloads\api.contatos.crm-main\api.contatos.crm-main\src\Aurovel.Domain\obj\Debug\net8.0\Aurovel.Domain.dll
+C:\Users\actdigital\Downloads\api.contatos.crm-main\api.contatos.crm-main\src\Aurovel.Domain\obj\Debug\net8.0\refint\Aurovel.Domain.dll
+C:\Users\actdigital\Downloads\api.contatos.crm-main\api.contatos.crm-main\src\Aurovel.Domain\obj\Debug\net8.0\Aurovel.Domain.pdb
+C:\Users\actdigital\Downloads\api.contatos.crm-main\api.contatos.crm-main\src\Aurovel.Domain\obj\Debug\net8.0\ref\Aurovel.Domain.dll
