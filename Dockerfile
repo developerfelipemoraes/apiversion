@@ -2,7 +2,7 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 COPY . .
-RUN dotnet restore "./src/Aurovel.Api/Aurovel.Crm.Api.csproj" --configfile ./NuGet.config
+RUN dotnet restore "./src/Aurovel.Api/Aurovel.Crm.Api.csproj" 
 RUN dotnet publish "./src/Aurovel.Api/Aurovel.Crm.Api.csproj" -c Release -o /app /p:UseAppHost=false --no-restore
 
 # Stage 2: Create the final image
