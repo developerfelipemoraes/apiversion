@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Aurovel.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db5a4e094de0b37c5f711d9888277326dcb9b9c5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f37e456fa10880f844b737100fa0d5fc3a96fe5b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Aurovel.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Aurovel.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

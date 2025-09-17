@@ -107,14 +107,14 @@ public class ContactsController : ControllerBase
     {
         var item = await _repo.GetByIdAsync(id);
         
-        return item is null ? NotFound(new { error = "Contato não encontrado" }) : Ok(item);
+        return item is null ? NotFound(new { error = "Contato não encontrado" }) : Ok(new {  item });
     }
 
     [HttpGet("cpf/{cpf}")]
     public async Task<IActionResult> GetByCpf([FromRoute] string cpf)
     {
         var item = await _repo.GetByCpfAsync(cpf);
-        return item is null ? NotFound(new { error = "Contato não encontrado" }) : Ok(item);
+        return item is null ? NotFound(new { error = "Contato não encontrado" }) : Ok(new {  item });
     }
 
     [HttpPut("{id}")]
@@ -136,7 +136,7 @@ public class ContactsController : ControllerBase
 
             var updated = await _repo.UpdateAsync(id, entity);
 
-            return updated is null ? NotFound(new { error = "Contato não encontrado" }) : Ok(updated);
+            return updated is null ? NotFound(new { error = "Contato não encontrado" }) : Ok(new { item = updated });
 
         }
         catch (Exception ex)
@@ -163,7 +163,11 @@ public class ContactsController : ControllerBase
         
         var updated = await _repo.LinkToCompanyAsync(contactId, companyId, role);
         
-        return updated is null ? NotFound(new { error = "Contato não encontrado" }) : Ok(new { message = "Vínculo criado com sucesso", data = updated });
+        return updated is null ? NotFound(new { error = "Contato não encontrado" }) : Ok(
+            new { 
+                message = "Vínculo criado com sucesso",
+                item = updated 
+            });
     }
 
     [HttpDelete("{contactId}/companies/{companyId}")]
@@ -172,6 +176,6 @@ public class ContactsController : ControllerBase
         var updated = await _repo.UnlinkFromCompanyAsync(contactId, companyId);
 
         return updated is null ? NotFound(new { error = "Contato não encontrado" }) : 
-            Ok(new { message = "Vínculo removido com sucesso", data = updated });
+            Ok(new { message = "Vínculo removido com sucesso", item = updated });
     }
 }

@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "EM8IH67yJTEADnAXJlLDNKGEe4gcrNhIe2ymiquTy4I=",
-  "Source": "Aurovel..Crm.Conta.Contato.Api",
-  "BasePath": "_content/Aurovel..Crm.Conta.Contato.Api",
+  "Hash": "gW5HY/0Ph178la1sEc20I2KbqBGnrz90onEQrR45lmo=",
+  "Source": "Aurovel.Crm.Api",
+  "BasePath": "_content/Aurovel.Crm.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

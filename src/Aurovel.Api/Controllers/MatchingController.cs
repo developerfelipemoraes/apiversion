@@ -25,7 +25,7 @@ public class MatchingController : ControllerBase
         // TODO: Confirmar regra original. Versão simples: retorna contatos vinculados a companyId.
         var (items, _) = await _contacts.ListAsync(1, 100, null, null, null, null, null, "createdAt", "desc");
         var linked = items.Where(c => c.LinkedCompanies.Any(l => l.CompanyId == companyId));
-        return Ok(new { items = linked, total = linked.Count() });
+        return Ok(new { data = linked, total = linked.Count() });
     }
 
     [HttpGet("contact/{contactId}/companies")]
@@ -40,14 +40,14 @@ public class MatchingController : ControllerBase
             var comp = await _companies.GetByIdAsync(id);
             if (comp != null) list.Add(comp);
         }
-        return Ok(new { items = list, total = list.Count });
+        return Ok(new { data = list, total = list.Count });
     }
 
     [HttpGet("best-matches")]
     public async Task<IActionResult> GetBestMatches()
     {
         // TODO: Confirmar regra original. Versão simples: retorna 0 resultado até definirmos a lógica.
-        return Ok(new { items = new object[0], total = 0 });
+        return Ok(new { data = new object[0], total = 0 });
     }
 
     [HttpPost("links")]

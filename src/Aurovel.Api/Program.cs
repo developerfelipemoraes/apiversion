@@ -9,6 +9,7 @@ using Aurovel.Infrastructure.Repositories;
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.IdentityModel.Tokens;
@@ -27,6 +28,19 @@ string corsOriginsCsv = Environment.GetEnvironmentVariable("CORS_ORIGINS") ?? ""
 string jwtSecret = Environment.GetEnvironmentVariable("JWT_SECRET") ?? "missing-secret";
 string issuer = Environment.GetEnvironmentVariable("JWT_ISSUER") ?? "Aurovel";
 string audience = Environment.GetEnvironmentVariable("JWT_AUDIENCE") ?? "AurovelClients";
+var cors = builder.Configuration.GetSection("Cors").Get<CorsOptions>();
+
+var origins = new[] { "http://localhost:5173", "http://localhost:5174/", "https://orange-bay-05cd3f41e.2.azurestaticapps.net/" };
+
+// CORS
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(builder =>
+        builder.WithOrigins(origins) // Specify your frontend's origin
+                .AllowAnyMethod()
+                .AllowAnyHeader()
+                .AllowCredentials());// Permite qualquer método
+});
 
 // Controllers + JSON
 builder.Services.AddControllers().AddJsonOptions(o => {
@@ -65,14 +79,6 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 
 builder.Services.AddAuthorization();
 
-// CORS
-builder.Services.AddCors(opt => {
-    var origins = corsOriginsCsv.Split(',', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
-    opt.AddDefaultPolicy(p => {
-        if (origins.Length > 0) p.WithOrigins(origins).AllowAnyHeader().AllowAnyMethod();
-        else p.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
-    });
-});
 
 // Swagger
 builder.Services.AddEndpointsApiExplorer();

@@ -127,7 +127,7 @@ public class CompaniesController : ControllerBase
     {
         var item = await _repo.GetByIdAsync(id);
 
-        return item is null ? NotFound(new { error = "Empresa não encontrada" }) : Ok(item);
+        return item is null ? NotFound(new { error = "Empresa não encontrada" }) : Ok(new { data = item });
     }
 
     /// <summary>
