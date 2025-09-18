@@ -5,10 +5,10 @@ namespace Aurovel.Infrastructure.Repositories;
 
 public interface ICompanyRepository
 {
-    Task<Company> CreateAsync(Company entity);
-    Task<(IEnumerable<Company> items, long total)> ListAsync(int page, int limit, string? status, int? kycMin, int? kycMax, string? search, string sortBy, string sortOrder);
-    Task<Company?> GetByIdAsync(string id);
-    Task<Company?> GetByCnpjAsync(string cnpj);
-    Task<Company?> UpdateAsync(string id, Company update);
+    Task<CompanyDataDocument> CreateAsync(CompanyDataDocument entity);
+    Task<(IEnumerable<CompanyDataDocument> items, long total)> ListAsync(int page, int limit, string? status, int? kycMin, int? kycMax, string? search, string sortBy, string sortOrder);
+    Task<CompanyDataDocument?> GetByIdAsync(string id);
+    Task<CompanyDataDocument?> GetByCnpjAsync(string cnpj);
+    Task<CompanyDataDocument?> UpdateAsync(string id, CompanyDataDocument update);
     Task<bool> DeleteAsync(string id);
 }

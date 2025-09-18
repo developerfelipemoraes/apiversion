@@ -54,7 +54,7 @@ public class CompaniesController : ControllerBase
                 }
             );
 
-            var entity = MongoDB.Bson.Serialization.BsonSerializer.Deserialize<Company>(bson);
+            var entity = MongoDB.Bson.Serialization.BsonSerializer.Deserialize<CompanyDataDocument>(bson);
 
             var created = await _repo.CreateAsync(entity);
 
@@ -110,7 +110,7 @@ public class CompaniesController : ControllerBase
         var (items, total) = await _repo.ListAsync(1, 1, null, null, null, null, "createdAt", "desc");
         
         var byStatus = items
-            .GroupBy(i => i.Compliance?.RiskClassification ?? "unknown")
+            .GroupBy(i => i.KycScore)
             .ToDictionary(g => g.Key, g => g.Count());
         
         return Ok(new { total, byStatus });
@@ -157,7 +157,7 @@ public class CompaniesController : ControllerBase
         if (!val.IsValid) 
             return BadRequest(new { error = "Dados inválidos", details = val.Errors.Select(e => e.ErrorMessage) });
         
-        var entity = MongoDB.Bson.Serialization.BsonSerializer.Deserialize<Company>(body);
+        var entity = MongoDB.Bson.Serialization.BsonSerializer.Deserialize<CompanyDataDocument>(body);
         
         entity.Id = id;
         

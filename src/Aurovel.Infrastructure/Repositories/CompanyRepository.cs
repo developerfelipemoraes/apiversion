@@ -10,32 +10,32 @@ public class CompanyRepository : ICompanyRepository
     private readonly Mongo.MongoContext _ctx;
     public CompanyRepository(Mongo.MongoContext ctx) => _ctx = ctx;
 
-    public async Task<Company> CreateAsync(Company entity)
+    public async Task<CompanyDataDocument> CreateAsync(CompanyDataDocument entity)
     {
         await _ctx.Companies.InsertOneAsync(entity);
         return entity;
     }
 
-    public async Task<(IEnumerable<Company> items, long total)> ListAsync(int page, int limit, string? status, int? kycMin, int? kycMax, string? search, string sortBy, string sortOrder)
+    public async Task<(IEnumerable<CompanyDataDocument> items, long total)> ListAsync(int page, int limit, string? status, int? kycMin, int? kycMax, string? search, string sortBy, string sortOrder)
     {
-        var filter = Builders<Company>.Filter.Empty;
-        var f = new List<FilterDefinition<Company>>();
-        if (!string.IsNullOrWhiteSpace(status)) f.Add(Builders<Company>.Filter.Eq("profile.status", status));
-        if (kycMin.HasValue) f.Add(Builders<Company>.Filter.Gte("profile.kycScore", kycMin.Value));
-        if (kycMax.HasValue) f.Add(Builders<Company>.Filter.Lte("profile.kycScore", kycMax.Value));
+        var filter = Builders<CompanyDataDocument>.Filter.Empty;
+        var f = new List<FilterDefinition<CompanyDataDocument>>();
+        if (!string.IsNullOrWhiteSpace(status)) f.Add(Builders<CompanyDataDocument>.Filter.Eq("profile.status", status));
+        if (kycMin.HasValue) f.Add(Builders<CompanyDataDocument>.Filter.Gte("profile.kycScore", kycMin.Value));
+        if (kycMax.HasValue) f.Add(Builders<CompanyDataDocument>.Filter.Lte("profile.kycScore", kycMax.Value));
         if (!string.IsNullOrWhiteSpace(search))
         {
             var regex = new BsonRegularExpression(search, "i");
-            f.Add(Builders<Company>.Filter.Or(
-                Builders<Company>.Filter.Regex("basicInfo.legalName", regex),
-                Builders<Company>.Filter.Regex("identification.cnpj", regex)
+            f.Add(Builders<CompanyDataDocument>.Filter.Or(
+                Builders<CompanyDataDocument>.Filter.Regex("basicInfo.legalName", regex),
+                Builders<CompanyDataDocument>.Filter.Regex("identification.cnpj", regex)
             ));
         }
-        if (f.Count > 0) filter = Builders<Company>.Filter.And(f);
+        if (f.Count > 0) filter = Builders<CompanyDataDocument>.Filter.And(f);
 
         var sort = sortOrder?.ToLowerInvariant() == "asc"
-            ? Builders<Company>.Sort.Ascending(sortBy)
-            : Builders<Company>.Sort.Descending(sortBy);
+            ? Builders<CompanyDataDocument>.Sort.Ascending(sortBy)
+            : Builders<CompanyDataDocument>.Sort.Descending(sortBy);
 
         var total = await _ctx.Companies.CountDocumentsAsync(filter);
         var items = await _ctx.Companies.Find(filter)
@@ -47,27 +47,27 @@ public class CompanyRepository : ICompanyRepository
         return (items, total);
     }
 
-    public async Task<Company?> GetByIdAsync(string id)
+    public async Task<CompanyDataDocument?> GetByIdAsync(string id)
     {
         if (!ObjectId.TryParse(id, out _)) return null;
         return await _ctx.Companies.Find(x => x.Id == id).FirstOrDefaultAsync();
     }
 
-    public async Task<Company?> GetByCnpjAsync(string cnpj)
+    public async Task<CompanyDataDocument?> GetByCnpjAsync(string cnpj)
     {
-        return await _ctx.Companies.Find(Builders<Company>.Filter.Eq("identification.cnpj", cnpj)).FirstOrDefaultAsync();
+        return await _ctx.Companies.Find(Builders<CompanyDataDocument>.Filter.Eq("identification.cnpj", cnpj)).FirstOrDefaultAsync();
     }
 
-    public async Task<Company?> UpdateAsync(string id, Company update)
+    public async Task<CompanyDataDocument?> UpdateAsync(string id, CompanyDataDocument update)
     {
         if (!ObjectId.TryParse(id, out _)) return null;
 
         update.UpdatedAt = DateTime.UtcNow;
 
-        var res = await _ctx.Companies.FindOneAndReplaceAsync<Company, Company>(
+        var res = await _ctx.Companies.FindOneAndReplaceAsync<CompanyDataDocument, CompanyDataDocument>(
             c => c.Id == id,
             update,
-            new FindOneAndReplaceOptions<Company, Company>
+            new FindOneAndReplaceOptions<CompanyDataDocument, CompanyDataDocument>
             {
                 ReturnDocument = ReturnDocument.After
             },

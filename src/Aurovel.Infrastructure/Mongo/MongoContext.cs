@@ -8,7 +8,7 @@ public class MongoContext
 {
     public IMongoDatabase Db { get; }
     public IMongoCollection<Contact> Contacts => Db.GetCollection<Contact>("contacts");
-    public IMongoCollection<Company> Companies => Db.GetCollection<Company>("companies");
+    public IMongoCollection<CompanyDataDocument> Companies => Db.GetCollection<CompanyDataDocument>("companies");
 
     public MongoContext(IMongoDatabase db) => Db = db;
 }

@@ -15,52 +15,24 @@
       "RelativeMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel.Crm.Api.csproj|solutionrelative:src\\aurovel.api\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel.Crm.Api.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel.Crm.Api.csproj|solutionrelative:src\\aurovel.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BC6B036-89D9-7AC2-A750-AE622CF73D85}|src\\Aurovel.Infrastructure\\Aurovel.Infrastructure.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.infrastructure\\repositories\\companyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BC6B036-89D9-7AC2-A750-AE622CF73D85}|src\\Aurovel.Infrastructure\\Aurovel.Infrastructure.csproj|solutionrelative:src\\aurovel.infrastructure\\repositories\\companyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel.Crm.Api.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.api\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel.Crm.Api.csproj|solutionrelative:src\\aurovel.api\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel.Crm.Api.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.api\\controllers\\matchingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel.Crm.Api.csproj|solutionrelative:src\\aurovel.api\\controllers\\matchingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66AE8DEC-A735-ECB6-FD13-C47688216985}|src\\Aurovel.Application\\Aurovel.Application.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.application\\validation\\companyvalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66AE8DEC-A735-ECB6-FD13-C47688216985}|src\\Aurovel.Application\\Aurovel.Application.csproj|solutionrelative:src\\aurovel.application\\validation\\companyvalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BC6B036-89D9-7AC2-A750-AE622CF73D85}|src\\Aurovel.Infrastructure\\Aurovel.Infrastructure.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.infrastructure\\repositories\\icompanyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BC6B036-89D9-7AC2-A750-AE622CF73D85}|src\\Aurovel.Infrastructure\\Aurovel.Infrastructure.csproj|solutionrelative:src\\aurovel.infrastructure\\repositories\\icompanyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0BC6B036-89D9-7AC2-A750-AE622CF73D85}|src\\Aurovel.Infrastructure\\Aurovel.Infrastructure.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.infrastructure\\mongo\\mongocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0BC6B036-89D9-7AC2-A750-AE622CF73D85}|src\\Aurovel.Infrastructure\\Aurovel.Infrastructure.csproj|solutionrelative:src\\aurovel.infrastructure\\mongo\\mongocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel.Crm.Api.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.api\\middleware\\commonmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel.Crm.Api.csproj|solutionrelative:src\\aurovel.api\\middleware\\commonmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BC6B036-89D9-7AC2-A750-AE622CF73D85}|src\\Aurovel.Infrastructure\\Aurovel.Infrastructure.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.infrastructure\\repositories\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BC6B036-89D9-7AC2-A750-AE622CF73D85}|src\\Aurovel.Infrastructure\\Aurovel.Infrastructure.csproj|solutionrelative:src\\aurovel.infrastructure\\repositories\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel.Crm.Api.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel.Crm.Api.csproj|solutionrelative:src\\aurovel.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel.Crm.Api.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel.Crm.Api.csproj|solutionrelative:src\\aurovel.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel.Crm.Api.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel.Crm.Api.csproj|solutionrelative:src\\aurovel.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{0BC6B036-89D9-7AC2-A750-AE622CF73D85}|src\\Aurovel.Infrastructure\\Aurovel.Infrastructure.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.infrastructure\\repositories\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BC6B036-89D9-7AC2-A750-AE622CF73D85}|src\\Aurovel.Infrastructure\\Aurovel.Infrastructure.csproj|solutionrelative:src\\aurovel.infrastructure\\repositories\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,80 +42,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MongoContext.cs",
-              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Infrastructure\\Mongo\\MongoContext.cs",
-              "RelativeDocumentMoniker": "src\\Aurovel.Infrastructure\\Mongo\\MongoContext.cs",
-              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Infrastructure\\Mongo\\MongoContext.cs",
-              "RelativeToolTip": "src\\Aurovel.Infrastructure\\Mongo\\MongoContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T19:15:45.62Z"
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\Dockerfile",
-              "RelativeDocumentMoniker": "Dockerfile",
-              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\Dockerfile",
-              "RelativeToolTip": "Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-08-29T18:51:52.92Z"
+              "DocumentIndex": 2,
+              "Title": "CompaniesController.cs",
+              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Controllers\\CompaniesController.cs",
+              "RelativeDocumentMoniker": "src\\Aurovel.Api\\Controllers\\CompaniesController.cs",
+              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Controllers\\CompaniesController.cs",
+              "RelativeToolTip": "src\\Aurovel.Api\\Controllers\\CompaniesController.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAtwHEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T18:57:44.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IContactRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Infrastructure\\Repositories\\IContactRepository.cs",
+              "RelativeDocumentMoniker": "src\\Aurovel.Infrastructure\\Repositories\\IContactRepository.cs",
+              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Infrastructure\\Repositories\\IContactRepository.cs",
+              "RelativeToolTip": "src\\Aurovel.Infrastructure\\Repositories\\IContactRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T18:45:50.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ContactRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Infrastructure\\Repositories\\ContactRepository.cs",
+              "RelativeDocumentMoniker": "src\\Aurovel.Infrastructure\\Repositories\\ContactRepository.cs",
+              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Infrastructure\\Repositories\\ContactRepository.cs",
+              "RelativeToolTip": "src\\Aurovel.Infrastructure\\Repositories\\ContactRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T18:45:36.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICompanyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Infrastructure\\Repositories\\ICompanyRepository.cs",
+              "RelativeDocumentMoniker": "src\\Aurovel.Infrastructure\\Repositories\\ICompanyRepository.cs",
+              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Infrastructure\\Repositories\\ICompanyRepository.cs",
+              "RelativeToolTip": "src\\Aurovel.Infrastructure\\Repositories\\ICompanyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T18:44:58.421Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Program.cs",
-              "RelativeDocumentMoniker": "src\\Aurovel.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Program.cs",
-              "RelativeToolTip": "src\\Aurovel.Api\\Program.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAIwHwAAAAhAAAAAAAAAA==",
+              "Title": "CompanyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Infrastructure\\Repositories\\CompanyRepository.cs",
+              "RelativeDocumentMoniker": "src\\Aurovel.Infrastructure\\Repositories\\CompanyRepository.cs",
+              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Infrastructure\\Repositories\\CompanyRepository.cs",
+              "RelativeToolTip": "src\\Aurovel.Infrastructure\\Repositories\\CompanyRepository.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAA4wEoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T18:50:40.343Z",
+              "WhenOpened": "2025-09-18T18:44:39.424Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "MatchingController.cs",
-              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Controllers\\MatchingController.cs",
-              "RelativeDocumentMoniker": "src\\Aurovel.Api\\Controllers\\MatchingController.cs",
-              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Controllers\\MatchingController.cs",
-              "RelativeToolTip": "src\\Aurovel.Api\\Controllers\\MatchingController.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAgwEUAAAAFAAAAAAAAAA==",
+              "Title": "MongoContext.cs",
+              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Infrastructure\\Mongo\\MongoContext.cs",
+              "RelativeDocumentMoniker": "src\\Aurovel.Infrastructure\\Mongo\\MongoContext.cs",
+              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Infrastructure\\Mongo\\MongoContext.cs",
+              "RelativeToolTip": "src\\Aurovel.Infrastructure\\Mongo\\MongoContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T18:49:18.124Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ContactsController.cs",
-              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Controllers\\ContactsController.cs",
-              "RelativeDocumentMoniker": "src\\Aurovel.Api\\Controllers\\ContactsController.cs",
-              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Controllers\\ContactsController.cs",
-              "RelativeToolTip": "src\\Aurovel.Api\\Controllers\\ContactsController.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAtwE4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T13:15:22.868Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CommonMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Middleware\\CommonMiddleware.cs",
-              "RelativeDocumentMoniker": "src\\Aurovel.Api\\Middleware\\CommonMiddleware.cs",
-              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Middleware\\CommonMiddleware.cs",
-              "RelativeToolTip": "src\\Aurovel.Api\\Middleware\\CommonMiddleware.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAIA3wBMAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T16:56:35.899Z"
+              "WhenOpened": "2025-09-18T18:43:58.248Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -153,9 +134,9 @@
               "RelativeDocumentMoniker": "src\\Aurovel.Domain\\Documents\\Company.cs",
               "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Domain\\Documents\\Company.cs",
               "RelativeToolTip": "src\\Aurovel.Domain\\Documents\\Company.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAC8BAAAAAAAAAAAtwD4BAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T16:37:10.109Z",
+              "WhenOpened": "2025-09-18T18:38:15.206Z",
               "EditorCaption": ""
             },
             {
@@ -166,95 +147,10 @@
               "RelativeDocumentMoniker": "src\\Aurovel.Domain\\Documents\\Contact.cs",
               "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Domain\\Documents\\Contact.cs",
               "RelativeToolTip": "src\\Aurovel.Domain\\Documents\\Contact.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T13:54:24.614Z",
+              "WhenOpened": "2025-09-18T18:30:06.131Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "src\\Aurovel.Api\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "src\\Aurovel.Api\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T13:13:32.542Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CompaniesController.cs",
-              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Controllers\\CompaniesController.cs",
-              "RelativeDocumentMoniker": "src\\Aurovel.Api\\Controllers\\CompaniesController.cs",
-              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Controllers\\CompaniesController.cs",
-              "RelativeToolTip": "src\\Aurovel.Api\\Controllers\\CompaniesController.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAgwFoAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T13:13:34.318Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\Aurovel.Api\\appsettings.json",
-              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\appsettings.json",
-              "RelativeToolTip": "src\\Aurovel.Api\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-13T18:30:54.871Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CompanyValidators.cs",
-              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Application\\Validation\\CompanyValidators.cs",
-              "RelativeDocumentMoniker": "src\\Aurovel.Application\\Validation\\CompanyValidators.cs",
-              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Application\\Validation\\CompanyValidators.cs",
-              "RelativeToolTip": "src\\Aurovel.Application\\Validation\\CompanyValidators.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAkwAsAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T13:12:17.498Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "docker-compose.yml",
-              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\docker-compose.yml",
-              "RelativeDocumentMoniker": "docker-compose.yml",
-              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\docker-compose.yml",
-              "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-08-29T18:51:57.877Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "src\\Aurovel.Api\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Properties\\launchSettings.json",
-              "RelativeToolTip": "src\\Aurovel.Api\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAwAsAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-13T18:31:07.442Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": ".env",
-              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\.env",
-              "RelativeDocumentMoniker": ".env",
-              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\.env",
-              "RelativeToolTip": ".env",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-09-13T18:45:42.529Z"
             }
           ]
         }
