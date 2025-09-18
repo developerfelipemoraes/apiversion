@@ -1,5 +1,4 @@
 version: "3.8"
-
 services:
   api:
     build:
@@ -12,13 +11,11 @@ services:
       - JWT_SECRET=${JWT_SECRET}
       - ASPNETCORE_ENVIRONMENT=Production
       - ASPNETCORE_URLS=http://0.0.0.0:3001
-
       # ====== CORS ======
       # Inclua o domínio do seu Static Web App e o host público HTTPS da VM
-      - CORS_ORIGINS=https://SEU_STATIC_APP.azurestaticapps.net,https://aurovelapicontainers.brazilsouth.cloudapp.azure.com,https://localhost:5173,https://localhost:3000
+      - CORS_ORIGINS=https://orange-bay-05cd3f41e.2.azurestaticapps.net,https://aurovelapicontainers.brazilsouth.cloudapp.azure.com,https://localhost:5173,https://localhost:3000
     expose:
       - "3001"               # Disponível apenas dentro da rede do compose
-    # (opcional) torne o container mais resiliente
     restart: unless-stopped
     healthcheck:
       # Evita depender de "wget" (muitos runtimes .NET não têm)
@@ -27,7 +24,6 @@ services:
       timeout: 5s
       retries: 3
       start_period: 10s
-
   caddy:
     image: caddy:2
     container_name: caddy-proxy
@@ -41,7 +37,6 @@ services:
       - caddy_data:/data
       - caddy_config:/config
     restart: unless-stopped
-
 volumes:
   caddy_data:
   caddy_config:
