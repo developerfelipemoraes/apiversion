@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel.Crm.Api.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel.Crm.Api.csproj|solutionrelative:src\\aurovel.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel.Crm.Api.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.api\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel.Crm.Api.csproj|solutionrelative:src\\aurovel.api\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{136EFC06-262D-280B-F238-284952113109}|src\\Aurovel.Domain\\Aurovel.Domain.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.domain\\documents\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{136EFC06-262D-280B-F238-284952113109}|src\\Aurovel.Domain\\Aurovel.Domain.csproj|solutionrelative:src\\aurovel.domain\\documents\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel.Crm.Api.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.api\\controllers\\matchingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,20 +31,12 @@
       "RelativeMoniker": "D:0:0:{0BC6B036-89D9-7AC2-A750-AE622CF73D85}|src\\Aurovel.Infrastructure\\Aurovel.Infrastructure.csproj|solutionrelative:src\\aurovel.infrastructure\\mongo\\mongocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{136EFC06-262D-280B-F238-284952113109}|src\\Aurovel.Domain\\Aurovel.Domain.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.domain\\documents\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{136EFC06-262D-280B-F238-284952113109}|src\\Aurovel.Domain\\Aurovel.Domain.csproj|solutionrelative:src\\aurovel.domain\\documents\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel.Crm.Api.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.api\\middleware\\commonmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel.Crm.Api.csproj|solutionrelative:src\\aurovel.api\\middleware\\commonmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{136EFC06-262D-280B-F238-284952113109}|src\\Aurovel.Domain\\Aurovel.Domain.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.domain\\documents\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{136EFC06-262D-280B-F238-284952113109}|src\\Aurovel.Domain\\Aurovel.Domain.csproj|solutionrelative:src\\aurovel.domain\\documents\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel.Crm.Api.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel.Crm.Api.csproj|solutionrelative:src\\aurovel.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel.Crm.Api.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,11 +70,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "MongoContext.cs",
               "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Infrastructure\\Mongo\\MongoContext.cs",
               "RelativeDocumentMoniker": "src\\Aurovel.Infrastructure\\Mongo\\MongoContext.cs",
@@ -99,20 +99,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Program.cs",
               "RelativeDocumentMoniker": "src\\Aurovel.Api\\Program.cs",
               "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Program.cs",
               "RelativeToolTip": "src\\Aurovel.Api\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAIwCEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAIwCYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-29T18:50:40.343Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MatchingController.cs",
               "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Controllers\\MatchingController.cs",
               "RelativeDocumentMoniker": "src\\Aurovel.Api\\Controllers\\MatchingController.cs",
@@ -125,20 +125,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ContactsController.cs",
               "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Controllers\\ContactsController.cs",
               "RelativeDocumentMoniker": "src\\Aurovel.Api\\Controllers\\ContactsController.cs",
               "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Controllers\\ContactsController.cs",
               "RelativeToolTip": "src\\Aurovel.Api\\Controllers\\ContactsController.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAtwFgAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAtwE4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-29T13:15:22.868Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CommonMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Middleware\\CommonMiddleware.cs",
               "RelativeDocumentMoniker": "src\\Aurovel.Api\\Middleware\\CommonMiddleware.cs",
@@ -151,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Company.cs",
               "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Domain\\Documents\\Company.cs",
               "RelativeDocumentMoniker": "src\\Aurovel.Domain\\Documents\\Company.cs",
@@ -164,13 +164,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Contact.cs",
               "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Domain\\Documents\\Contact.cs",
               "RelativeDocumentMoniker": "src\\Aurovel.Domain\\Documents\\Contact.cs",
               "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Domain\\Documents\\Contact.cs",
               "RelativeToolTip": "src\\Aurovel.Domain\\Documents\\Contact.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAcwDsAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-29T13:54:24.614Z",
               "EditorCaption": ""
@@ -190,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CompaniesController.cs",
               "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Controllers\\CompaniesController.cs",
               "RelativeDocumentMoniker": "src\\Aurovel.Api\\Controllers\\CompaniesController.cs",
@@ -215,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "CompanyValidators.cs",
               "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Application\\Validation\\CompanyValidators.cs",
               "RelativeDocumentMoniker": "src\\Aurovel.Application\\Validation\\CompanyValidators.cs",
