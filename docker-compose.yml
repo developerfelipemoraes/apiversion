@@ -1,22 +1,47 @@
-
 version: "3.8"
+
 services:
   api:
     build:
       context: ./
       dockerfile: Dockerfile
     environment:
+      # ====== SEUS VALORES ======
       - MONGODB_URI=${MONGODB_URI}
       - MONGO_DB=CrmVeiculosAurovel
       - JWT_SECRET=${JWT_SECRET}
-      - CORS_ORIGINS=http://localhost:3000,http://localhost:5173
-      - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_URLS=http://+:3001
-    ports:
-      - "3001:3001"
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://0.0.0.0:3001
+
+      # ====== CORS ======
+      # Inclua o domínio do seu Static Web App e o host público HTTPS da VM
+      - CORS_ORIGINS=https://SEU_STATIC_APP.azurestaticapps.net,https://aurovelapicontainers.brazilsouth.cloudapp.azure.com,https://localhost:5173,https://localhost:3000
+    expose:
+      - "3001"               # Disponível apenas dentro da rede do compose
+    # (opcional) torne o container mais resiliente
+    restart: unless-stopped
     healthcheck:
-      test: ["CMD", "wget", "-qO-", "http://localhost:3001/health/ready"]
+      # Evita depender de "wget" (muitos runtimes .NET não têm)
+      test: ["CMD-SHELL", "curl -fsS http://localhost:3001/health/ready || exit 1"]
       interval: 30s
       timeout: 5s
       retries: 3
       start_period: 10s
+
+  caddy:
+    image: caddy:2
+    container_name: caddy-proxy
+    depends_on:
+      - api
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+      - caddy_data:/data
+      - caddy_config:/config
+    restart: unless-stopped
+
+volumes:
+  caddy_data:
+  caddy_config:
