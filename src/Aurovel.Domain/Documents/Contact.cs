@@ -1,211 +1,468 @@
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
-namespace Aurovel.Domain.Documents;
-
-public class Contact
+namespace Aurovel.Domain.Documents
 {
-    [BsonId, BsonRepresentation(BsonType.ObjectId)]
-    public string Id { get; set; } = default!;
+    [BsonIgnoreExtraElements]
+    public class CompanyDataDocument
+    {
+        [BsonId]
+        [BsonRepresentation(BsonType.ObjectId)]
+        public string Id { get; set; } = default!;
 
-    [BsonElement("personalInfo")]
-    public PersonalInfo? PersonalInfo { get; set; }
+        // ===== Step 0: Identification (para o índice unique identification.cnpj) =====
+        [BsonElement("identification")]
+        public Identification Identification { get; set; } = new();
 
-    [BsonElement("contact")]
-    [BsonIgnoreIfNull]
-    public ContactData? ContactData { get; set; }
+        // ===== Step 1: Identification (espelhando o payload TS na raiz) =====
+        [BsonElement("corporateName")]
+        public string CorporateName { get; set; } = string.Empty;
 
-    [BsonElement("addresses")]
-    [BsonIgnoreIfNull]
-    public Addresses? Addresses { get; set; }
+        [BsonElement("tradeName")]
+        public string TradeName { get; set; } = string.Empty;
 
-    [BsonElement("professional")]
-    [BsonIgnoreIfNull]
-    public Professional? Professional { get; set; }
+        [BsonElement("cnpj")]
+        public string Cnpj { get; set; } = string.Empty;
 
-    [BsonElement("financial")]
-    [BsonIgnoreIfNull]
-    public Financial? Financial { get; set; }
+        [BsonElement("nire")]
+        public string? Nire { get; set; }
 
-    [BsonElement("banking")]
-    [BsonIgnoreIfNull]
-    public Banking? Banking { get; set; }
+        [BsonElement("stateRegistration")]
+        public string? StateRegistration { get; set; }
 
-    [BsonElement("documents")]
-    [BsonIgnoreIfNull]
-    public DocumentsRoot? Documents { get; set; }
+        [BsonElement("municipalRegistration")]
+        public string? MunicipalRegistration { get; set; }
 
-    [BsonElement("compliance")]
-    [BsonIgnoreIfNull]
-    public Compliance? Compliance { get; set; }
+        [BsonElement("primaryCnae")]
+        public string? PrimaryCnae { get; set; }
 
-    [BsonElement("profile")]
-    [BsonIgnoreIfNull]
-    public Profile? Profile { get; set; }
+        [BsonElement("secondaryCnaes")]
+        public List<string> SecondaryCnaes { get; set; } = new();
 
-    [BsonElement("linkedCompanies")]
-    [BsonIgnoreIfNull]
-    public List<LinkedCompanyRef> LinkedCompanies { get; set; } = new();
+        [BsonElement("legalNature")]
+        public string? LegalNature { get; set; }
 
-    [BsonDateTimeOptions(Kind = DateTimeKind.Utc)]
-    public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        // 'MEI' | 'ME' | 'EPP' | 'Others'
+        [BsonElement("companySize")]
+        public string CompanySize { get; set; } = "Others";
 
-    [BsonDateTimeOptions(Kind = DateTimeKind.Utc)]
-    public DateTime? UpdatedAt { get; set; }
-}
+        // 'Simples' | 'Lucro Presumido' | 'Lucro Real'
+        [BsonElement("taxRegime")]
+        public string TaxRegime { get; set; } = "Simples";
 
-public class PersonalInfo
-{
-    [BsonElement("fullName")] public string? FullName { get; set; }
-    [BsonElement("cpf")] public string? Cpf { get; set; }
-    [BsonElement("rg")] public string? Rg { get; set; }
-    [BsonElement("birthDate")] public DateTime? BirthDate { get; set; }
-    [BsonElement("nationality")] public string? Nationality { get; set; }
-    [BsonElement("maritalStatus")] public string? MaritalStatus { get; set; }
-    [BsonElement("gender")] public string? Gender { get; set; }
-    [BsonElement("motherName")] public string? MotherName { get; set; }
-    [BsonElement("fatherName")] public string? FatherName { get; set; }
-}
+        // manter string para casar com o TypeScript
+        [BsonElement("incorporationDate")]
+        public string IncorporationDate { get; set; } = string.Empty;
 
-public class ContactData
-{
-    [BsonElement("email")] public string? Email { get; set; }
-    [BsonElement("personalEmail")] public string? PersonalEmail { get; set; }
-    [BsonElement("phone")] public string? Phone { get; set; }
-    [BsonElement("landline")] public string? Landline { get; set; }
-    [BsonElement("emergencyContact")] public EmergencyContact? EmergencyContact { get; set; }
-}
+        // ===== Step 2: Addresses =====
+        [BsonElement("commercialAddress")]
+        public Address CommercialAddress { get; set; } = new();
 
-public class EmergencyContact
-{
-    [BsonElement("name")] public string? Name { get; set; }
-    [BsonElement("relationship")] public string? Relationship { get; set; }
-    [BsonElement("phone")] public string? Phone { get; set; }
-}
+        [BsonElement("billingAddress")]
+        public Address? BillingAddress { get; set; }
 
-public class Addresses
-{
-    [BsonElement("residential")] public Address? Residential { get; set; }
-    [BsonElement("professional")] public Address? Professional { get; set; }
-}
+        [BsonElement("deliveryAddress")]
+        public Address? DeliveryAddress { get; set; }
 
-public class Address
-{
-    [BsonElement("street")] public string? Street { get; set; }
-    [BsonElement("number")] public string? Number { get; set; }
-    [BsonElement("complement")] public string? Complement { get; set; }
-    [BsonElement("neighborhood")] public string? Neighborhood { get; set; }
-    [BsonElement("city")] public string? City { get; set; }
-    [BsonElement("state")] public string? State { get; set; }
-    [BsonElement("zipCode")] public string? ZipCode { get; set; }
-    [BsonElement("country")] public string? Country { get; set; }
-    [BsonElement("residenceType")] public string? ResidenceType { get; set; }
-    [BsonElement("residenceTime")] public string? ResidenceTime { get; set; }
-}
+        // ===== Step 3: Contacts =====
+        [BsonElement("primaryEmail")]
+        public string PrimaryEmail { get; set; } = string.Empty;
 
-public class Professional
-{
-    [BsonElement("company")] public string? Company { get; set; }
-    [BsonElement("position")] public string? Position { get; set; }
-    [BsonElement("department")] public string? Department { get; set; }
-    [BsonElement("admissionDate")] public DateTime? AdmissionDate { get; set; }
-    [BsonElement("salary")] public decimal? Salary { get; set; }
-    [BsonElement("workRegime")] public string? WorkRegime { get; set; }
-    [BsonElement("previousExperience")] public List<Experience>? PreviousExperience { get; set; }
-}
+        [BsonElement("phone")]
+        public string Phone { get; set; } = string.Empty;
 
-public class Experience
-{
-    [BsonElement("company")] public string? Company { get; set; }
-    [BsonElement("position")] public string? Position { get; set; }
-    [BsonElement("period")] public string? Period { get; set; }
-    [BsonElement("reason")] public string? Reason { get; set; }
-}
+        [BsonElement("whatsapp")]
+        public string? Whatsapp { get; set; }
 
-public class Financial
-{
-    [BsonElement("monthlyIncome")] public decimal? MonthlyIncome { get; set; }
-    [BsonElement("otherIncome")] public decimal? OtherIncome { get; set; }
-    [BsonElement("totalIncome")] public decimal? TotalIncome { get; set; }
-    [BsonElement("monthlyExpenses")] public decimal? MonthlyExpenses { get; set; }
-    [BsonElement("netWorth")] public decimal? NetWorth { get; set; }
-    [BsonElement("creditScore")] public int? CreditScore { get; set; }
-    [BsonElement("hasDebts")] public bool HasDebts { get; set; }
-    [BsonElement("debts")] public List<Debt>? Debts { get; set; }
-    [BsonElement("assets")] public List<Asset>? Assets { get; set; }
-}
+        [BsonElement("website")]
+        public string? Website { get; set; }
 
-public class Debt
-{
-    [BsonElement("type")] public string? Type { get; set; }
-    [BsonElement("amount")] public decimal? Amount { get; set; }
-}
+        [BsonElement("socialMedia")]
+        public string? SocialMedia { get; set; }
 
-public class Asset
-{
-    [BsonElement("type")] public string? Type { get; set; }
-    [BsonElement("description")] public string? Description { get; set; }
-    [BsonElement("value")] public decimal? Value { get; set; }
-}
+        [BsonElement("keyContacts")]
+        public List<KeyContact> KeyContacts { get; set; } = new();
 
-public class Banking
-{
-    [BsonElement("primaryBank")] public string? PrimaryBank { get; set; }
-    [BsonElement("accountType")] public string? AccountType { get; set; }
-    [BsonElement("accountNumber")] public string? AccountNumber { get; set; }
-    [BsonElement("agency")] public string? Agency { get; set; }
-    [BsonElement("bankingTime")] public string? BankingTime { get; set; }
-    [BsonElement("creditLimit")] public decimal? CreditLimit { get; set; }
-    [BsonElement("pixKey")] public string? PixKey { get; set; }
-}
+        [BsonElement("accountingOffice")]
+        public AccountingOffice? AccountingOffice { get; set; }
 
-public class DocumentsRoot
-{
-    [BsonElement("hasValidDocuments")] public bool HasValidDocuments { get; set; }
-    [BsonElement("documents")] public List<Document>? DocumentList { get; set; }
-}
+        // ===== Step 4: Corporate Structure =====
+        // 'national' | 'foreign'
+        [BsonElement("control")]
+        public string Control { get; set; } = "national";
 
-public class Document
-{
-    [BsonElement("type")] public string? Type { get; set; }
-    [BsonElement("number")] public string? Number { get; set; }
-    [BsonElement("status")] public string? Status { get; set; }
-    [BsonElement("lastVerification")] public DateTime? LastVerification { get; set; }
-    [BsonElement("issuingBody")] public string? IssuingBody { get; set; }
-    [BsonElement("issueDate")] public DateTime? IssueDate { get; set; }
-    [BsonElement("category")] public string? Category { get; set; }
-    [BsonElement("expiryDate")] public DateTime? ExpiryDate { get; set; }
-}
+        [BsonElement("country")]
+        public string? Country { get; set; }
 
-public class Compliance
-{
-    [BsonElement("kycScore")] public int? KycScore { get; set; }
-    [BsonElement("riskClassification")] public string? RiskClassification { get; set; }
-    [BsonElement("lastReview")] public DateTime? LastReview { get; set; }
-    [BsonElement("nextReview")] public DateTime? NextReview { get; set; }
-    [BsonElement("pep")] public bool Pep { get; set; }
-    [BsonElement("sanctionsList")] public bool SanctionsList { get; set; }
-    [BsonElement("complianceNotes")] public string? ComplianceNotes { get; set; }
-    [BsonElement("approvedBy")] public string? ApprovedBy { get; set; }
-    [BsonElement("approvalDate")] public DateTime? ApprovalDate { get; set; }
-}
+        [BsonElement("finalBeneficiaries")]
+        public List<Shareholder> FinalBeneficiaries { get; set; } = new();
 
-public class Profile
-{
-    [BsonElement("status")] public string? Status { get; set; } // prospect, client, inactive
-    [BsonElement("riskLevel")] public string? RiskLevel { get; set; }
-    [BsonElement("kycScore")] public int? KycScore { get; set; }
-    [BsonElement("tags")] public List<string>? Tags { get; set; }
-}
+        [BsonElement("administrators")]
+        public List<Administrator> Administrators { get; set; } = new();
 
-public class LinkedCompanyRef
-{
-    [BsonElement("companyId"), BsonRepresentation(BsonType.ObjectId)]
-    public string CompanyId { get; set; } = default!;
+        [BsonElement("attorneys")]
+        public List<Attorney> Attorneys { get; set; } = new();
 
-    [BsonElement("role")]
-    public string Role { get; set; } = "commercial";
+        [BsonElement("relatedCompanies")]
+        public List<RelatedCompany> RelatedCompanies { get; set; } = new();
 
-    [BsonElement("addedAt")]
-    public DateTime AddedAt { get; set; } = DateTime.UtcNow;
+        // ===== Step 5: Financial =====
+        [BsonElement("socialCapital")]
+        [BsonRepresentation(BsonType.Decimal128)]
+        public decimal SocialCapital { get; set; }
+
+        [BsonElement("netWorth")]
+        [BsonRepresentation(BsonType.Decimal128)]
+        public decimal NetWorth { get; set; }
+
+        [BsonElement("revenue12m")]
+        [BsonRepresentation(BsonType.Decimal128)]
+        public decimal Revenue12m { get; set; }
+
+        [BsonElement("relevantAssets")]
+        public string? RelevantAssets { get; set; }
+
+        [BsonElement("paymentTerms")]
+        public string PaymentTerms { get; set; } = string.Empty;
+
+        [BsonElement("creditLimit")]
+        [BsonRepresentation(BsonType.Decimal128)]
+        public decimal CreditLimit { get; set; }
+
+        // ===== Step 6: Banking =====
+        [BsonElement("primaryBankAccount")]
+        public BankAccount PrimaryBankAccount { get; set; } = new();
+
+        [BsonElement("secondaryBankAccount")]
+        public BankAccount? SecondaryBankAccount { get; set; }
+
+        [BsonElement("pixKey")]
+        public string? PixKey { get; set; }
+
+        [BsonElement("beneficiary")]
+        public string? Beneficiary { get; set; }
+
+        // ===== Step 7: Operations =====
+        [BsonElement("businessLine")]
+        public string BusinessLine { get; set; } = string.Empty;
+
+        [BsonElement("currentFleet")]
+        public string CurrentFleet { get; set; } = string.Empty;
+
+        [BsonElement("intendedUse")]
+        public string IntendedUse { get; set; } = string.Empty;
+
+        [BsonElement("preferredBrands")]
+        public string PreferredBrands { get; set; } = string.Empty;
+
+        [BsonElement("interestCategories")]
+        public List<string> InterestCategories { get; set; } = new();
+
+        // ===== Step 8: Licenses & Insurance =====
+        [BsonElement("rntrc")]
+        public string? Rntrc { get; set; }
+
+        [BsonElement("rntrcValidity")]
+        public string? RntrcValidity { get; set; }
+
+        [BsonElement("operatingLicense")]
+        public string? OperatingLicense { get; set; }
+
+        [BsonElement("environmentalLicenses")]
+        public string? EnvironmentalLicenses { get; set; }
+
+        [BsonElement("insurances")]
+        public List<Insurance> Insurances { get; set; } = new();
+
+        // ===== Step 9: Compliance & LGPD =====
+        [BsonElement("isPep")]
+        public bool IsPep { get; set; }
+
+        [BsonElement("pepRelationship")]
+        public bool PepRelationship { get; set; }
+
+        [BsonElement("pepName")]
+        public string? PepName { get; set; }
+
+        [BsonElement("pepCpf")]
+        public string? PepCpf { get; set; }
+
+        [BsonElement("dpoName")]
+        public string? DpoName { get; set; }
+
+        [BsonElement("dpoEmail")]
+        public string? DpoEmail { get; set; }
+
+        [BsonElement("legalBasis")]
+        public string? LegalBasis { get; set; }
+
+        [BsonElement("communicationConsent")]
+        public bool CommunicationConsent { get; set; }
+
+        [BsonElement("sharingConsent")]
+        public bool SharingConsent { get; set; }
+
+        // ===== Step 10: Documents =====
+        [BsonElement("documents")]
+        public Documents Documents { get; set; } = new();
+
+        // ===== Profile data =====
+        // 'client' | 'prospect'
+        [BsonElement("status")]
+        public string Status { get; set; } = "prospect";
+
+        [BsonElement("tags")]
+        public List<string> Tags { get; set; } = new();
+
+        [BsonElement("kycScore")]
+        public int KycScore { get; set; }
+
+        // string para alinhar ao TS
+        [BsonElement("nextReview")]
+        public string NextReview { get; set; } = string.Empty;
+
+        [BsonElement("vehicles")]
+        public List<Vehicle> Vehicles { get; set; } = new();
+
+        [BsonElement("completeness")]
+        public int Completeness { get; set; }
+
+        [BsonElement("monthlyTicket")]
+        [BsonRepresentation(BsonType.Decimal128)]
+        public decimal MonthlyTicket { get; set; }
+
+        [BsonElement("vehicleCount")]
+        public int VehicleCount { get; set; }
+
+        [BsonElement("credit")]
+        [BsonRepresentation(BsonType.Decimal128)]
+        public decimal Credit { get; set; }
+
+        // ===== Metadata (opcional) =====
+        [BsonElement("createdAt")]
+        [BsonDateTimeOptions(Kind = DateTimeKind.Utc)]
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+
+        [BsonElement("updatedAt")]
+        [BsonDateTimeOptions(Kind = DateTimeKind.Utc)]
+        public DateTime? UpdatedAt { get; set; }
+    }
+
+    // ===== Subdocuments =====
+
+    [BsonIgnoreExtraElements]
+    public class Identification
+    {
+        [BsonElement("cnpj")]
+        public string? Cnpj { get; set; }
+    }
+
+    [BsonIgnoreExtraElements]
+    public class Address
+    {
+        [BsonElement("street")]
+        public string Street { get; set; } = string.Empty;
+
+        [BsonElement("number")]
+        public string Number { get; set; } = string.Empty;
+
+        [BsonElement("complement")]
+        public string? Complement { get; set; }
+
+        [BsonElement("neighborhood")]
+        public string Neighborhood { get; set; } = string.Empty;
+
+        [BsonElement("city")]
+        public string City { get; set; } = string.Empty;
+
+        [BsonElement("state")]
+        public string State { get; set; } = string.Empty;
+
+        [BsonElement("zipCode")]
+        public string ZipCode { get; set; } = string.Empty;
+    }
+
+    [BsonIgnoreExtraElements]
+    public class Contact
+    {
+        [BsonElement("name")]
+        public string Name { get; set; } = string.Empty;
+
+        [BsonElement("email")]
+        public string Email { get; set; } = string.Empty;
+
+        [BsonElement("phone")]
+        public string Phone { get; set; } = string.Empty;
+    }
+
+    [BsonIgnoreExtraElements]
+    public class KeyContact : Contact
+    {
+        // 'fiscal' | 'financial' | 'logistics' | 'commercial'
+        [BsonElement("role")]
+        public string Role { get; set; } = "commercial";
+    }
+
+    [BsonIgnoreExtraElements]
+    public class AccountingOffice
+    {
+        [BsonElement("companyName")]
+        public string CompanyName { get; set; } = string.Empty;
+
+        [BsonElement("crc")]
+        public string Crc { get; set; } = string.Empty;
+
+        [BsonElement("contact")]
+        public Contact Contact { get; set; } = new();
+    }
+
+    [BsonIgnoreExtraElements]
+    public class Shareholder
+    {
+        [BsonElement("name")]
+        public string Name { get; set; } = string.Empty;
+
+        [BsonElement("cpf")]
+        public string Cpf { get; set; } = string.Empty;
+
+        [BsonElement("percentage")]
+        [BsonRepresentation(BsonType.Decimal128)]
+        public decimal Percentage { get; set; }
+    }
+
+    [BsonIgnoreExtraElements]
+    public class Administrator
+    {
+        [BsonElement("name")]
+        public string Name { get; set; } = string.Empty;
+
+        [BsonElement("cpf")]
+        public string Cpf { get; set; } = string.Empty;
+
+        [BsonElement("instrument")]
+        public string Instrument { get; set; } = string.Empty;
+
+        // string para alinhar ao TS
+        [BsonElement("date")]
+        public string Date { get; set; } = string.Empty;
+    }
+
+    [BsonIgnoreExtraElements]
+    public class Attorney
+    {
+        [BsonElement("name")]
+        public string Name { get; set; } = string.Empty;
+
+        [BsonElement("cpf")]
+        public string Cpf { get; set; } = string.Empty;
+
+        [BsonElement("powers")]
+        public string Powers { get; set; } = string.Empty;
+
+        [BsonElement("expirationDate")]
+        public string ExpirationDate { get; set; } = string.Empty;
+    }
+
+    [BsonIgnoreExtraElements]
+    public class RelatedCompany
+    {
+        [BsonElement("companyName")]
+        public string CompanyName { get; set; } = string.Empty;
+
+        [BsonElement("cnpj")]
+        public string Cnpj { get; set; } = string.Empty;
+
+        [BsonElement("participationPercentage")]
+        [BsonRepresentation(BsonType.Decimal128)]
+        public decimal ParticipationPercentage { get; set; }
+    }
+
+    [BsonIgnoreExtraElements]
+    public class BankAccount
+    {
+        [BsonElement("bank")]
+        public string Bank { get; set; } = string.Empty;
+
+        [BsonElement("agency")]
+        public string Agency { get; set; } = string.Empty;
+
+        [BsonElement("account")]
+        public string Account { get; set; } = string.Empty;
+    }
+
+    [BsonIgnoreExtraElements]
+    public class Insurance
+    {
+        [BsonElement("type")]
+        public string Type { get; set; } = string.Empty;
+
+        [BsonElement("number")]
+        public string Number { get; set; } = string.Empty;
+
+        [BsonElement("validity")]
+        public string Validity { get; set; } = string.Empty;
+
+        [BsonElement("insurer")]
+        public string Insurer { get; set; } = string.Empty;
+    }
+
+    [BsonIgnoreExtraElements]
+    public class Vehicle
+    {
+        [BsonElement("id")]
+        public string Id { get; set; } = string.Empty;
+
+        [BsonElement("type")]
+        public string Type { get; set; } = string.Empty;
+
+        [BsonElement("model")]
+        public string Model { get; set; } = string.Empty;
+
+        [BsonElement("year")]
+        public int Year { get; set; }
+
+        [BsonElement("plate")]
+        public string Plate { get; set; } = string.Empty;
+
+        [BsonElement("usage")]
+        public string Usage { get; set; } = string.Empty;
+
+        [BsonElement("kycScore")]
+        public int KycScore { get; set; }
+
+        // 'active' | 'pending' | 'inactive'
+        [BsonElement("status")]
+        public string Status { get; set; } = "active";
+
+        [BsonElement("pendencies")]
+        public List<string> Pendencies { get; set; } = new();
+    }
+
+    [BsonIgnoreExtraElements]
+    public class Documents
+    {
+        [BsonElement("cnpjCard")]
+        public string? CnpjCard { get; set; }
+
+        [BsonElement("socialContract")]
+        public string? SocialContract { get; set; }
+
+        [BsonElement("registrations")]
+        public string? Registrations { get; set; }
+
+        [BsonElement("addressProof")]
+        public string? AddressProof { get; set; }
+
+        [BsonElement("clearances")]
+        public string? Clearances { get; set; }
+
+        [BsonElement("powerOfAttorney")]
+        public string? PowerOfAttorney { get; set; }
+
+        [BsonElement("digitalCertificate")]
+        public string? DigitalCertificate { get; set; }
+
+        [BsonElement("licenses")]
+        public string? Licenses { get; set; }
+    }
 }
