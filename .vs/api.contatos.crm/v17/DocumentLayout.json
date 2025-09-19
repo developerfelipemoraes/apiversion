@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\Caddyfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:Caddyfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\Caddyfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:Caddyfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{136EFC06-262D-280B-F238-284952113109}|src\\Aurovel.Domain\\Aurovel.Domain.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.domain\\documents\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,30 +50,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Caddyfile.txt",
-              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\Caddyfile.txt",
-              "RelativeDocumentMoniker": "Caddyfile.txt",
-              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\Caddyfile.txt",
-              "RelativeToolTip": "Caddyfile.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-09-18T23:12:32.478Z",
+              "DocumentIndex": 1,
+              "Title": "Caddyfile",
+              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\Caddyfile",
+              "RelativeDocumentMoniker": "Caddyfile",
+              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\Caddyfile",
+              "RelativeToolTip": "Caddyfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-18T23:25:19.365Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
               "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\docker-compose.yml",
               "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAqwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2025-09-18T23:07:41.726Z",
               "EditorCaption": ""

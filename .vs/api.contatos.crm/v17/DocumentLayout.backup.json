@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{136EFC06-262D-280B-F238-284952113109}|src\\Aurovel.Domain\\Aurovel.Domain.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.domain\\documents\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{136EFC06-262D-280B-F238-284952113109}|src\\Aurovel.Domain\\Aurovel.Domain.csproj|solutionrelative:src\\aurovel.domain\\documents\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\Caddyfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:Caddyfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{136EFC06-262D-280B-F238-284952113109}|src\\Aurovel.Domain\\Aurovel.Domain.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.domain\\documents\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{136EFC06-262D-280B-F238-284952113109}|src\\Aurovel.Domain\\Aurovel.Domain.csproj|solutionrelative:src\\aurovel.domain\\documents\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{136EFC06-262D-280B-F238-284952113109}|src\\Aurovel.Domain\\Aurovel.Domain.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.domain\\documents\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{136EFC06-262D-280B-F238-284952113109}|src\\Aurovel.Domain\\Aurovel.Domain.csproj|solutionrelative:src\\aurovel.domain\\documents\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C74992EE-B21D-D665-100C-3D19B5436202}|src\\Aurovel.Api\\Aurovel.Crm.Api.csproj|c:\\users\\felipe\\source\\repos\\new_project\\api\\apiversion\\src\\aurovel.api\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,15 +50,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Caddyfile.txt",
+              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\Caddyfile.txt",
+              "RelativeDocumentMoniker": "Caddyfile.txt",
+              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\Caddyfile.txt",
+              "RelativeToolTip": "Caddyfile.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-09-18T23:12:32.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-09-18T23:07:41.726Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CompaniesController.cs",
               "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Api\\Controllers\\CompaniesController.cs",
               "RelativeDocumentMoniker": "src\\Aurovel.Api\\Controllers\\CompaniesController.cs",
@@ -63,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "IContactRepository.cs",
               "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Infrastructure\\Repositories\\IContactRepository.cs",
               "RelativeDocumentMoniker": "src\\Aurovel.Infrastructure\\Repositories\\IContactRepository.cs",
@@ -76,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "ContactRepository.cs",
               "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Infrastructure\\Repositories\\ContactRepository.cs",
               "RelativeDocumentMoniker": "src\\Aurovel.Infrastructure\\Repositories\\ContactRepository.cs",
@@ -89,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ICompanyRepository.cs",
               "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Infrastructure\\Repositories\\ICompanyRepository.cs",
               "RelativeDocumentMoniker": "src\\Aurovel.Infrastructure\\Repositories\\ICompanyRepository.cs",
@@ -102,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "CompanyRepository.cs",
               "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Infrastructure\\Repositories\\CompanyRepository.cs",
               "RelativeDocumentMoniker": "src\\Aurovel.Infrastructure\\Repositories\\CompanyRepository.cs",
@@ -115,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "MongoContext.cs",
               "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Infrastructure\\Mongo\\MongoContext.cs",
               "RelativeDocumentMoniker": "src\\Aurovel.Infrastructure\\Mongo\\MongoContext.cs",
@@ -128,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Company.cs",
               "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Domain\\Documents\\Company.cs",
               "RelativeDocumentMoniker": "src\\Aurovel.Domain\\Documents\\Company.cs",
@@ -141,13 +175,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Contact.cs",
               "DocumentMoniker": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Domain\\Documents\\Contact.cs",
               "RelativeDocumentMoniker": "src\\Aurovel.Domain\\Documents\\Contact.cs",
               "ToolTip": "C:\\Users\\Felipe\\source\\repos\\new_project\\api\\apiversion\\src\\Aurovel.Domain\\Documents\\Contact.cs",
               "RelativeToolTip": "src\\Aurovel.Domain\\Documents\\Contact.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAewGsAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-18T18:30:06.131Z",
               "EditorCaption": ""

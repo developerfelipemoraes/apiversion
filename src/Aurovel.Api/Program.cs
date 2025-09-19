@@ -30,7 +30,7 @@ string issuer = Environment.GetEnvironmentVariable("JWT_ISSUER") ?? "Aurovel";
 string audience = Environment.GetEnvironmentVariable("JWT_AUDIENCE") ?? "AurovelClients";
 var cors = builder.Configuration.GetSection("Cors").Get<CorsOptions>();
 
-var origins = new[] { "http://localhost:5173", "http://localhost:5174/", "https://orange-bay-05cd3f41e.2.azurestaticapps.net/" };
+var origins = new[] { "http://localhost:5173", "http://localhost:5174", "https://orange-bay-05cd3f41e.2.azurestaticapps.net" };
 
 // CORS
 builder.Services.AddCors(options =>
